@@ -1,0 +1,20 @@
+
+body { font-family: Arial, sans-serif; background:#f4f6f9; margin:0; }
+.container { width: 90%; max-width: 980px; margin: 30px auto; background:#fff; padding: 20px; border-radius: 10px; box-shadow: 0 3px 10px rgba(0,0,0,.1); }
+h2 { text-align:center; color:#333; }
+.nav a { margin-right: 12px; text-decoration:none; }
+.task-table { width:100%; border-collapse: collapse; margin-top: 20px; }
+.task-table th, .task-table td { padding: 10px; border-bottom: 1px solid #eee; text-align:left; }
+.task-table th { background:#007bff; color:#fff; }
+.task-table tr:hover { background:#f9fbff; }
+button, .btn { padding:8px 12px; border:none; border-radius:6px; background:#28a745; color:#fff; cursor:pointer; }
+button:hover, .btn:hover { filter: brightness(0.95); }
+input[type=text], input[type=password], select, textarea, input[type=date] { width:100%; padding:8px; margin:6px 0 12px; border:1px solid #ddd; border-radius:6px; }
+.container.small { max-width: 420px; }
+.alert { background:#ffeded; color:#b10000; padding:8px 10px; border-radius:6px; margin-bottom:10px; }
+.success { background:#e7fff1; color:#146c2e; padding:8px 10px; border-radius:6px; margin-bottom:10px; }
+.dashboard { display:grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 18px; }
+.card { background:#f8faff; border:1px solid #e7ecf5; border-radius:12px; padding:16px; text-align:center; }
+.card.delayed { background:#fff7f7; border-color:#ffd6d6; }
+.inline { display:inline-block; margin-right:8px; }
+.comments { list-style: none; padding-left: 0; }
